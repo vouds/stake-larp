@@ -29,11 +29,11 @@
             console.log(`[LARP] USDâ†’ARS rate updated: ${usdToArs}`);
           }
         } catch (e) {
-          console.error("[LARP] Failed to parse USD->ARS rate:", e);
+          console.error("[hey retard this didnt work] Failed to parse USD->ARS rate:", e);
         }
       },
       onerror: function (e) {
-        console.error("[LARP] USD->ARS fetch error:", e);
+        console.error("[yeah nigga this shit not working] USD->ARS fetch error:", e);
       }
     });
   }
@@ -172,7 +172,7 @@
       modifyCurrencyDisplay();
       overrideUSDTPreview();
     } catch (e) {
-      console.error('[LARP] error:', e);
+      console.error('[fuuuck me] error:', e);
     }
     requestAnimationFrame(mainLoop);
   }
